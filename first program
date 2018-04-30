@@ -1,0 +1,7 @@
+create database students;
+show databases;
+use students;
+create table details(roll_no varchar(10),name char(10),college char(20),class char(10),department char(20),
+sgpa int(4),dob int(20),blood_group char(20),address char(60),hobbies char(56),gender char(19),age int(15));
+
+
