@@ -1,0 +1,12 @@
+create database students;
+show databases;
+use students;
+create table details(roll_no varchar(10),name char(10),college char(20),class char(10),department char(28),
+sgpa float(4),dob varchar(50),blood_group char(20),address char(60),hobbies char(56),gender char(19),age varchar(15));
+
+desc details;
+insert into details(roll_no,name,college,class,department,sgpa,dob,blood_group,address,hobbies,age) 
+values ("15bmc057","praveen","kct","3rd year",'mechatronics',"7.9","31.08.1998","b positive",'kct coimbatore','cricket','20');
+select * from details;
+SELECT roll_no,department from details;
+
