@@ -1,0 +1,5 @@
+create table employee(name char(23),id varchar(20)primary key,department char(20) );
+insert into employee values ("raj","bos001",'databasemanager');
+insert into employee values ("praveen","bos002",'senoir manager');
+insert into employee values ("ram","bos004",'junior manager');
+desc employee;
